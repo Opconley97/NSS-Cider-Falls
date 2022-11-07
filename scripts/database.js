@@ -97,7 +97,7 @@ const database = {
         id: 12,
         name: "David Gilmour",
         locationId: 6
-    },],
+    }],
     servicesAtLocations: [
         { id: 1, serviceId: 1, locationId: 1 },
         { id: 2, serviceId: 2, locationId: 1 },
@@ -144,4 +144,12 @@ export const getServices = () => {
 
 export const getGuest = () => {
     return database.guests.map(guest => ({...guest}))
+}
+
+export const getServicesAtLocations = () => {
+    return database.servicesAtLocations.map(serviceLocations => ({...serviceLocations}))
+}
+
+export const getGuestsAtLocations = () => {
+    return database.guestsAtLocations.map(guestLocations => ({...guestLocations}))
 }
