@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+
+}
+
+.firstLocations {
+    display: flex;
+    justify-content: space-between;
+}
+
+.test {
+    display: flex;
+    justify-content: space-between;
+}
+
+.locations-info{
+    display: flex;
+}
+
+h4 {
+    display: flex;
+    
+    font-size: 19px;
+}
+
+.test-class{
+    display: flex;
+    align-items: left;
+    max-width: 65%;
+    justify-content: space-between;
+}
